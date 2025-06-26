@@ -124,10 +124,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &mkp MB3                         &kp LC(UP_ARROW)  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp TAB                          &kp COLON         &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt_to_layer_0 6 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE     &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R               &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F               &kp G        &mkp MB3            &kp LC(UP_ARROW)             &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V               &kp B        &kp LANGUAGE_2      &lt_to_layer_0 6 LANGUAGE_1  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &mt LEFT_WIN SPACE  &lt 2 SPACE  &kp TAB             &kp BACKSPACE                &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -135,19 +135,19 @@
 
         SYMBOLS {
             bindings = <
-&kp ESCAPE                  &kp SQT            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE             &kp BACKSLASH          &kp AT_SIGN
-&kp EXCLAMATION             &kp DOUBLE_QUOTES  &kp HASH              &kp DOLLAR             &kp PERCENT  &trans      &trans  &kp AMPERSAND     &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&mt LEFT_SHIFT KP_NUMBER_0  &trans             &trans                &trans                 &trans       &trans      &trans  &kp SEMICOLON     &kp COLON          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE
-&trans                      &trans             &trans                &trans                 &trans       &trans      &trans  &trans                                                                            &trans
+&kp ESCAPE                  &trans             &trans    &trans      &trans                           &kp GRAVE      &kp DOUBLE_QUOTES  &kp TILDE             &kp BACKSLASH          &kp AT_SIGN
+&kp EXCLAMATION             &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp AMPERSAND  &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&mt LEFT_SHIFT KP_NUMBER_0  &trans             &trans    &trans      &trans       &trans      &trans  &kp SEMICOLON  &kp COLON          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE
+&trans                      &trans             &trans    &trans      &trans       &trans      &trans  &trans                                                                         &trans
             >;
         };
 
         NUM_FUNC {
             bindings = <
-&kp ESCAPE    &trans        &trans        &trans        &trans                            &trans        &trans        &trans        &trans        &kp F12
+&kp ESCAPE    &trans        &trans        &trans        &trans                            &trans        &trans        &trans        &trans        &kp AT
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &trans      &trans  &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &kp F11
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &kp F12
             >;
         };
 
