@@ -40,20 +40,20 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
+//        tab {
+//            bindings = <&kp TAB>;
+//            key-positions = <11 12>;
+//        };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
+//        shift_tab {
+//            bindings = <&kp LS(TAB)>;
+//            key-positions = <12 13>;
+//        };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
+//        muhennkann {
+//            bindings = <&to_layer_0 INT_MUHENKAN>;
+//            key-positions = <11 10>;
+//        };
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
