@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
+#define MOUSE 4
 
 // OS設定を日本語キーボードのまま使用するための変換定義
 
@@ -84,7 +85,7 @@
                 <&macro_release>,
                 <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
-                <&sl 4>;
+                <&sl_250 MOUSE>;
 
             label = "MKP_EXIT_AML";
         };
