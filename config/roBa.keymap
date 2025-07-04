@@ -146,7 +146,7 @@
 
         NUM_FUNC {
             bindings = <
-&kp ESCAPE    &trans        &trans        &trans        &trans                            &trans        &kp COLON     &kp COMMA     &kp PERIOD    &kp AT
+&kp ESCAPE    &trans        &trans        &trans        &trans                            &kp SLASH     &kp COLON     &kp COMMA     &kp PERIOD    &kp AT
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &trans      &trans  &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
 &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &kp F12
