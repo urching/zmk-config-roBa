@@ -140,7 +140,7 @@
 &kp ESCAPE                  &trans             &trans    &trans      &trans                              &kp GRAVE      &kp DOUBLE_QUOTES  &kp TILDE             &kp BACKSLASH          &kp AT_SIGN
 &kp EXCLAMATION             &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans      &kp EQUAL  &kp AMPERSAND  &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
 &mt LEFT_SHIFT KP_NUMBER_0  &trans             &trans    &trans      &trans       &trans      &trans     &kp SEMICOLON  &kp COLON          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &mt RIGHT_SHIFT UNDERSCORE
-&trans                      &trans             &trans    &mkp MB4    &trans       &trans      &trans     &trans                                                                         &trans
+&trans                      &trans             &trans    &mkp MB4    &trans       &trans      &trans     &trans                                                                         &kp PIPE
             >;
         };
 
